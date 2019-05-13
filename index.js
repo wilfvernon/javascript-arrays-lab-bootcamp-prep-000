@@ -20,20 +20,20 @@ function destructivelyRemoveFirstKitten(){
 
 //conservative functions//
 function appendKitten(name){
-  new_array = [...kittens, name]
-  return new_array
+  newarray = [...kittens, name]
+  return newarray
 }
 
 function prependKitten(name){
-  new_array = [name, ...kittens]
-  return new_array
+  newarray = [name, ...kittens]
+  return newarray
 }
 
 function removeLastKitten(){
-  new_array = kittens.slice(0, kittens.length - 1)
-  return new_array
+  newarray = kittens.slice(0, kittens.length - 1)
+  return newarray
 }
 
 function removeFirstKitten(){
-  new_array = kittens.slice(1)
+  newarray = kittens.slice(1)
 }
