@@ -25,15 +25,15 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  newarray = [name, ...kittens]
+  var newarray = [name, ...kittens]
   return newarray
 }
 
 function removeLastKitten(){
-  newarray = kittens.slice(0, kittens.length - 1)
+  var newarray = kittens.slice(0, kittens.length - 1)
   return newarray
 }
 
 function removeFirstKitten(){
-  newarray = kittens.slice(1)
+  var newarray = kittens.slice(1)
 }
